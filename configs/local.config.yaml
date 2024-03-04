@@ -1,0 +1,33 @@
+port: 5050
+ssl: false
+debug: true
+
+auth0:
+  domain: ""
+  audience: ""
+  clientID: ""
+  appClientID: ""
+  clientSecret: ""
+  testToken: ""
+  callBackUrl: ""
+  namespace: ""
+  apiToken: ""
+  userRoleID:
+    admin: ""
+    member: ""
+
+database:
+  port: 5432
+  host: localhost
+  database: test
+  user: test
+  password: test
+
+storage:
+  endpoint: "localhost:9000"
+  accessKey: "test" # replace this value with your own key TODO: change this to env variable
+  secretKey: "testtest"  # replace this value with your own key TODO: change this to env variable
+  useSSL: false
+  buckets:
+    apiBackup: ""
+    dataPipeline: ""

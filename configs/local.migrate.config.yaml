@@ -1,0 +1,11 @@
+port: 5050
+ssl: false
+debug: true
+
+
+database:
+  port: 5432
+  host: localhost
+  database: test
+  user: test
+  password: test
